@@ -3,27 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Float Layout</title>
-    <link rel="stylesheet" href="style-float.css">
+    <title>Float & Positioning Layout</title>
+    <link rel="stylesheet" href="style_float.css">
 </head>
 <body>
-    <header class="row">
-        <div class="col-12 header-content">Header (Float)</div>
-    </header>
-    
+    <h1>Main caption</h1>
+
     <div class="row">
-        <nav class="col col-tablet-4 col-desktop-3 nav-content">Navigation</nav>
-        <main class="col col-tablet-8 col-desktop-6 main-content">Main Content</main>
-        <aside class="col col-tablet-12 col-desktop-3 aside-content">Sidebar (Aside)</aside>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="caption cap-1">Caption 1</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet blanditiis consequatur dolore doloremque ex hic in, ipsam ipsum itaque magnam magni meiores modi odit omnis.</p>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="caption cap-2">Caption 2</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet blanditiis consequatur dolore doloremque ex hic in, ipsam ipsum itaque magnam magni meiores modi odit omnis.</p>
+            </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+                <div class="caption cap-3">Caption 3</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet blanditiis consequatur dolore doloremque ex hic in, ipsam ipsum itaque magnam magni meiores modi odit omnis.</p>
+            </div>
+        </div>
     </div>
 
-    <footer class="row">
-        <div class="col-12 footer-content">Footer</div>
-    </footer>
-
-    <div class="links-section row">
-        <a href="index-flex.html">Switch to CSS Flexbox</a><br>
-        <a href="index-grid.html">Switch to CSS Grid</a>
+    <div class="navigation-links">
+        <a href="flex.html" class="nav-btn">Switch to CSS Flexbox</a>
+        <a href="grid.html" class="nav-btn">Switch to CSS Grid</a>
     </div>
 </body>
 </html>
